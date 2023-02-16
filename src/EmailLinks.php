@@ -7,9 +7,9 @@ use Corbado\Classes\Helper;
 use Corbado\Generated\Model\ClientInfo;
 use Corbado\Generated\Model\EmailLinkSendReq;
 use Corbado\Generated\Model\EmailLinkSendRsp;
-use Corbado\Generated\Model\EmailLinkSendRspAllOfData;
 use Corbado\Generated\Model\EmailLinksValidateReq;
 use Corbado\Generated\Model\EmailLinkValidateRsp;
+use Corbado\Generated\Model\EmailLinkSendRspAllOfData;
 use GuzzleHttp\ClientInterface;
 use JetBrains\PhpStorm\ArrayShape;
 

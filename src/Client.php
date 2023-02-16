@@ -12,6 +12,7 @@ class Client
     private ?WebAuthn $webAuthn = null;
     private ?Validation $validation = null;
     private ?Widget $widget = null;
+    private ?ProjectConfig $projectConfig = null;
 
     public function __construct(string $baseURI, string $username, string $password, ?\GuzzleHttp\ClientInterface $client = null)
     {
@@ -67,4 +68,14 @@ class Client
 
         return $this->widget;
     }
+
+    public function projectConfig() : ProjectConfig {
+        if ($this->projectConfig === null) {
+            $this->projectConfig = new ProjectConfig($this->client);
+        }
+
+        return $this->projectConfig;
+    }
 }
+
+

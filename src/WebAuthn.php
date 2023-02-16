@@ -8,7 +8,6 @@ use Corbado\Generated\Model\ClientInfo;
 use Corbado\Generated\Model\WebAuthnAuthenticateFinishRsp;
 use Corbado\Generated\Model\WebAuthnAuthenticateStartReq;
 use Corbado\Generated\Model\WebAuthnAuthenticateStartRsp;
-use Corbado\Generated\Model\WebAuthnAuthenticateSuccessRsp;
 use Corbado\Generated\Model\WebAuthnCredentialReq;
 use Corbado\Generated\Model\WebAuthnCredentialRsp;
 use Corbado\Generated\Model\WebAuthnFinishReq;
